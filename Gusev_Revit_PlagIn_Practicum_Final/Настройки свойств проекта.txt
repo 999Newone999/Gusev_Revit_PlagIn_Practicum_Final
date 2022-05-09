@@ -1,0 +1,3 @@
+Скопировать во вкладку "События сборки":
+xcopy "$(TargetDir)*.*" "C:\Program Files\RevitAPITrainig\" /y /i
+xcopy "$(ProjectDir)$(ProjectName).addin" "%appdata%\Autodesk\Revit\Addins\2022\" /y /i
